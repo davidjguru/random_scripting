@@ -1,0 +1,8 @@
+name: Hello World
+description: Hello World module
+type: module
+core: 8.x
+package: Custom
+dependencies:
+        - drupal:views
+        - ctools:ctools
