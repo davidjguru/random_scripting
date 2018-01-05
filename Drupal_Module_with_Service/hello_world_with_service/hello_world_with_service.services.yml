@@ -1,0 +1,3 @@
+services:
+  hello_world_with_service.salutation:
+    class: Drupal\hello_world_with_service\HelloWorldWithServiceSalutation

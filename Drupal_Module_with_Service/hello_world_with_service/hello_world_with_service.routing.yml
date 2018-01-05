@@ -1,0 +1,7 @@
+hello_world_with_service.hello:
+  path: 'helloservice'
+  defaults:
+    _controller: '\Drupal\hello_world_with_service\Controller\HelloWorldWithServiceController::helloWorldWithService'
+    _title: 'Our second route with a Service'
+  requirements:
+    _permission: 'access content'

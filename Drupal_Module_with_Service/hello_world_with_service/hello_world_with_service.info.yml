@@ -1,0 +1,7 @@
+name: Hello World with Service
+description: Hello World module version two with a Service
+type: module
+core: 8.x
+package: Custom
+dependencies:
+        - drupal:views
