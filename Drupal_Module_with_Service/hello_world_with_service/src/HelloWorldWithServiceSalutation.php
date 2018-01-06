@@ -13,6 +13,9 @@
 
 
    /*
+    * The function getSalutation is definited
+    * returns the salutation message changed
+    * date time. 
     * Returns the salutation
     */
        

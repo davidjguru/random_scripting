@@ -8,6 +8,9 @@ use Drupal\Core\Routing\RouteMatchInterface;
 
 function hello_world_with_service_help($route_name, RouteMatchInterface $route_match) {
 
+	// The function help is a basic Drupal hook
+	// to generate info help. 
+
 switch ($route_name) {
 case 'help.page.hello_world_with_service':
  $output = '';
