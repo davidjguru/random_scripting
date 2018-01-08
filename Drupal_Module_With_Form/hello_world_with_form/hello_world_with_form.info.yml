@@ -1,0 +1,7 @@
+name: Hello World with Form
+description: Hello World module version three with a Form
+type: module
+core: 8.x
+package: Custom
+dependencies:
+        - drupal:views

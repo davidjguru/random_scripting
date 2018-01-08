@@ -1,0 +1,23 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+* Implements hook_help().
+*/
+
+function hello_world_with_form_help($route_name, RouteMatchInterface $route_match) {
+
+switch ($route_name) {
+case 'help.page.hello_world_with_form':
+ $output = '';
+ $output .= '<h3>' . t('About') . '</h3>';
+ $output .= '<p>' . t('This is an third example module. We are creating a new Drupal module with a Form to custom the message.') . '</p>';
+
+  return $output;
+
+default:
+
+}
+
+}
